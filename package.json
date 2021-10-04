@@ -2,6 +2,7 @@
   "name": "emma-portfolio",
   "node": ">14",
   "version": "1.0.0",
+  "private": "true",
   "description": "A static website to show case the professional profile of Emma Rainville Entrepenuer and consultant at Shock Wave LLC ",
   "main": "index.js",
   "scripts": {
