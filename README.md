@@ -1,3 +1,4 @@
+#DEPRECATED FIND ACTIVE SITE HERE  ===> (https://github.com/emma-portfolio/portfolio)
 # WEBPACK development reposoitory for bundling static portfolio website for Emma Rainville
 ### emma@shockwavellc.com
 
