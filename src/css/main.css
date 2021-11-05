@@ -1411,7 +1411,7 @@ body.menu-is-open {
 }
 
 .darker {
-  background-color: #0f0f0f;
+  background-color: #290c3a;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2755,7 +2755,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 18rem;
   padding-bottom: 18rem;
-  background-color: #121212;
+  /* background-color: #121212; */
   position: relative;
 }
 
@@ -3328,7 +3328,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients a {
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.493);
 }
 
 .clients a:hover,
@@ -3631,7 +3631,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
-  background-color: #5e3080;
+  background-color: #290c3a;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
@@ -3654,7 +3654,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .subhead {
-  color: #2a1538;
+  color: #a89fad;
 }
 
 .s-contact .section-header,
@@ -3851,6 +3851,7 @@ footer {
   padding-bottom: 6rem;
   color: rgba(255, 255, 255, 0.6);
   background-color: #5e3080;
+  /* background-color: #121212; */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
