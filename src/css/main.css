@@ -1420,7 +1420,7 @@ body.menu-is-open {
 .display-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 1.5;
   letter-spacing: -0.03rem;
   margin-top: 0;
@@ -1430,7 +1430,7 @@ body.menu-is-open {
 .subhead {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 4rem;
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: .25rem;
@@ -3444,7 +3444,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials__slider {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   font-weight: 400;
   line-height: 1.636;
   margin-top: 7.2rem;
@@ -3663,20 +3663,21 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-main .contact-email {
-  margin-bottom: 3.6rem;
+  margin-bottom: 3rem;
 }
 
 .contact-email a {
-  font-size: 9rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffffb4;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 .contact-email a:hover,
 .contact-email a:focus {
-  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid #fffffff5;
+  color: #fffffff5;
 }
 
 /* ------------------------------------------------------------------- 
