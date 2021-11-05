@@ -3033,12 +3033,14 @@ html.no-csstransitions .home-content__main {
   height: 100%;
   opacity: .1;
   background-color: rgba(0, 0, 0, 0.1);
-  background-image: url(../images/emma-headshot.jpg.jpg);
-  background-size: 760px 380px;
-  background-position: 0 -20;
-  background-size: cover;
-  transform: scale(1.2);
+  /* background-image: url(../images/emma-headshot.jpg); */
+  /* background-size: 760px 380px; */
+  
+  /* background-size: cover; */
+  /* transform: scale(1.2); */
 }
+
+
 
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry
@@ -3426,7 +3428,15 @@ html.no-csstransitions .home-content__main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
 }
+@media only screen and (max-width:600px) {
+    
+  .s-testimonials {
+    background-position: center -100px -100px;
+  }
+  }
+  
 
 .s-testimonials::before {
   display: block;
@@ -3440,7 +3450,7 @@ html.no-csstransitions .home-content__main {
   background-color: #111111;
 }
 
-.testimonials__icon {
+/* .testimonials__icon {
   height: 4.5rem;
   width: 4.5rem;
   background-color: transparent;
@@ -3449,19 +3459,26 @@ html.no-csstransitions .home-content__main {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 15rem;
+  top: 60rem;
   left: 50%;
   margin-left: -2.25rem;
-}
+} */
 
 .testimonials__slider {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.636;
-  margin-top: 7.2rem;
-  color: #ffffff86;
+  margin-top: 55.2rem;
+  color: #ffffff67;
   position: relative;
 }
+/* @media only screen and (max-width:600px) {
+    
+  .testimonials__slider {
+   top: 100px;
+  }
+  } */
+  
 
 .testimonials__slider .slick-slide {
   outline: none;
@@ -3543,7 +3560,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .testimonials__slider {
-    font-size: 3.3rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -3564,7 +3581,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .testimonials__slider {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -3577,7 +3594,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .testimonials__slider {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -3596,7 +3613,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .testimonials__slider {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .testimonials__author {
