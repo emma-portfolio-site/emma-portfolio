@@ -3431,6 +3431,21 @@ html.no-csstransitions .home-content__main {
   background-size: cover;
   
 }
+@media only screen and (max-width:1000px) {
+  .s-testimonials {
+    padding-top: -35.2rem;
+    padding-bottom: 21rem;
+    /* height: 80%;s */
+    text-align: center;
+    position: relative;
+    background-image: url(../images/DSC02318.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+}
+
 @media only screen and (max-width:600px) {
     
   .s-testimonials {
