@@ -75,7 +75,7 @@ body {
 }
 
 body {
-  background: #121212;
+  background: #ececef;
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
@@ -90,7 +90,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #525aca;
+  color: #347ff0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -398,7 +398,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #525aca;
+  background: #347ff0;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -407,7 +407,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #525aca;
+  color: #347ff0;
 }
 
 dd {
@@ -908,7 +908,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #525aca;
+  -webkit-text-fill-color: #347ff0;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -966,8 +966,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #525aca;
-  border-color: #525aca;
+  background: #347ff0;
+  border-color: #347ff0;
   color: #FFFFFF;
 }
 
@@ -981,8 +981,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #3043b1;
-  border-color: #3043b1;
+  background: #1a2149;
+  border-color: #1a2149;
 }
 
 /* button modifiers
@@ -1236,7 +1236,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #525aca;
+  color: #347ff0;
 }
 
 .stats-tabs li a em {
@@ -1279,7 +1279,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-  background: #525aca;
+  background: #347ff0;
   position: relative;
   height: 100%;
 }
@@ -1293,7 +1293,7 @@ input::-moz-focus-inner {
   color: #FFFFFF;
   font-size: 1.1rem;
   line-height: 1;
-  background: #525aca;
+  background: #347ff0;
   padding: .6rem .6rem;
   border-radius: 3px;
 }
@@ -1305,7 +1305,7 @@ input::-moz-focus-inner {
   margin-left: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid #525aca;
+  border-top: 5px solid #347ff0;
   content: "";
 }
 
@@ -1411,7 +1411,7 @@ body.menu-is-open {
 }
 
 .darker {
-  background-color: #3b3d4975;
+  background-color: #4d4d6299;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1425,17 +1425,17 @@ body.menu-is-open {
   letter-spacing: -0.03rem;
   margin-top: 0;
   margin-bottom: 4.8rem;
+  color: #1a2149;
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 4rem;
+  font-family: "roboto", roboto, "Roboto", "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: .25rem;
-  color: #525aca;
-  margin-top: 0;
+  color: #347ff0;
   margin-bottom: 3rem;
   position: relative;
 }
@@ -1445,6 +1445,7 @@ body.menu-is-open {
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 2.4rem;
+  color: #347ff0;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1671,8 +1672,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 @media only screen and (max-width:500px) {
@@ -1734,7 +1735,7 @@ body.menu-is-open {
   margin-bottom: 7.2rem;
   margin-top: 1.2rem;
   padding-right: 140px;
-  color: #525aca;
+  color: #347ff0;
   position: relative;
 }
 
@@ -1743,7 +1744,7 @@ body.menu-is-open {
   display: block;
   height: 1px;
   width: 110px;
-  background-color: #525aca;
+  background-color:#347ff0;
   position: absolute;
   top: 50%;
   right: 0;
@@ -1801,11 +1802,11 @@ body.menu-is-open {
 }
 
 .header-nav__list a:hover::before {
-  color: #525aca;
+  color: #347ff0;
 }
 
 .header-nav__list .current a::before {
-  color: #525aca;
+  color: #347ff0;
 }
 
 .header-nav__social {
@@ -2069,7 +2070,8 @@ body.menu-is-open {
   width: 100%;
   height: 100vh;
   min-height: 786px;
-  background-color: rgba(0, 0, 0, 0.575);
+  background-color: #347ff0;
+  opacity: .9;
   position: relative;
   display: table;
   /* background: linear-gradient(-45deg, #bb61db, #5a2a80, #c351ec, #5a3775);
@@ -2205,8 +2207,8 @@ body.menu-is-open {
   height: 8rem;
   width: 8rem;
   border-radius: 50%;
-  background-color: #525aca;
-  background-image: url(../images/icons/read-book.svg);
+  background-color: #ffffff;
+  /* background-image: url(../images/icons/read-book.svg); */
   background-repeat: no-repeat;
   background-position: 50% center;
   background-size: cover;
@@ -2235,7 +2237,7 @@ body.menu-is-open {
 }
 
 .home-content__video .video-link:hover .video-icon {
-  background-color: #3043b1;
+  background-color: #1a2149;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2305,7 +2307,7 @@ body.menu-is-open {
 
 .home-content__scroll .scroll-link:hover,
 .home-content__scroll .scroll-link:focus {
-  color: #525aca;
+  color: #347ff0;
 }
 
 .home-content__scroll::after {
@@ -2753,8 +2755,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 8rem;
+  padding-bottom: 14rem;
   /* background-color: #121212; */
   position: relative;
 }
@@ -2782,7 +2784,7 @@ html.no-csstransitions .home-content__main {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
-  background-color: #525aca;;
+  background-color: #347ff0;
   height: 48px;
   width: 48px;
   line-height: 48px;
@@ -2796,8 +2798,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
   min-height: 24.6rem;
   margin-bottom: 3rem;
-  color: #F1F1F1
-}
+  color: #1a2149;}
 
 .item-process:nth-child(2n+1) {
   padding-right: 30px;
@@ -2919,7 +2920,7 @@ html.no-csstransitions .home-content__main {
 
 .item-service__icon {
   float: left;
-  color: #525aca;
+  color: #347ff0;
   font-size: 4.5rem;
   margin-top: -1.8rem;
 }
@@ -3330,12 +3331,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients a {
-  color: rgba(255, 255, 255, 0.493);
+  color: #347ff0;
 }
 
 .clients a:hover,
 .clients a:focus {
-  color: #525aca;
+  color: #347ff0;
 }
 
 .clients li {
@@ -3420,11 +3421,11 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 16.2rem;
+  padding-top: -5.2rem;
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
-  background-image: url(../images/emma-headshot.jpg);
+  background-image: url(../images/DSC02733.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3540,7 +3541,7 @@ html.no-csstransitions .home-content__main {
   line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #525aca;
+  color: #347ff0;
 }
 
 .testimonials__author span {
@@ -3648,7 +3649,6 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
-  background-color: #3b3d4975;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
@@ -3671,7 +3671,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .subhead {
-  color: #525aca
+  color: #347ff0;
 }
 
 .s-contact .section-header,
@@ -3867,8 +3867,7 @@ footer {
   padding-top: 9rem;
   padding-bottom: 6rem;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #525aca;
-  /* background-color: #121212; */
+  background-color: #347ff0;  /* background-color: #121212; */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
@@ -3899,7 +3898,7 @@ footer a {
 
 .ss-go-top a {
   color: #FFFFFF;
-  background-color: #282f50;
+  background-color: #424d80;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -3938,7 +3937,7 @@ footer a {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #3043b1;
+  background-color: #343f7d;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3985,3 +3984,11 @@ footer a {
 
 /*# sourceMappingURL=main.css.map */
 
+.white{
+ color: #347ff0;
+
+}
+
+.light{
+  color: rgba(255, 255, 255, 0.486);
+}
