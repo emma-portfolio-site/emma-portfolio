@@ -2178,7 +2178,7 @@ body.menu-is-open {
   font-size: 3.8rem;
   line-height: 1.342;
   font-style: normal;
-  color: #9c9c9c;
+  color: #d9d9d9;
 }
 
 .home-content__main {
@@ -2224,7 +2224,7 @@ body.menu-is-open {
   font-weight: 600;
   font-size: 1.3rem;
   line-height: 1;
-  color: #9c9c9c;
+  color: #d5d1d1;
   text-transform: uppercase;
   letter-spacing: .5rem;
   -webkit-transition: color 0.3s ease-in-out;
