@@ -1571,7 +1571,7 @@ body.menu-is-open {
   }
 
   .subhead {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
 
   .section-header.has-bottom-sep::before {
@@ -1582,11 +1582,11 @@ body.menu-is-open {
 
 @media only screen and (max-width:700px) {
   .display-1 {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
 
   .subhead {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
 }
@@ -1617,7 +1617,7 @@ body.menu-is-open {
   }
 
   .subhead {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
   }
 
   .item-title {
